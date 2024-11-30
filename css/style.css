@@ -1,0 +1,283 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #1b2330;
+    font-family: sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+img {
+    display: inline-block;
+}
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header-a {
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 54px;
+    margin-top: 96px;
+
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.hero-h1 {
+    margin-top: 36px;
+    width: 734px;
+    height: 120px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 150%;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 32px;
+}
+
+.hero-p {
+    width: 589px;
+    height: 90px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 32px;
+}
+
+.hero-button {
+    color: #fff;
+    padding: 19px 95px;
+    border-radius: 28px;
+    border: none;
+    background: linear-gradient(152deg, #63e1d9 0%, #34a0cd 100%);
+    box-shadow: 2px 3px 6px 0 rgba(0, 0, 0, 0.16);
+    margin-bottom: 158px;
+}
+
+.header-ul {
+    display: flex;
+    gap: 57px;
+}
+
+.cards {
+    width: 880px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 147px;
+    margin-bottom: 136px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    gap: 10px;
+
+
+}
+
+.card-h5 {
+
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.card-p {
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    color: #fff;
+}
+
+.section2 {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 120px;
+
+
+
+}
+
+.section2-text-h3 {
+
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 125%;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.section2-text-p {
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #fff;
+    margin-bottom: 16px;
+}
+
+.section2-text-p2 {
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #fff;
+    margin-bottom: 24px;
+}
+
+.section2-text-a {
+    padding-bottom: 5px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #62e0d9;
+    border-bottom: 2px solid #62e0d9;
+}
+
+.img-h5 {
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 120%;
+    letter-spacing: 0.05em;
+    color: #fff;
+    margin-bottom: 8px;
+}
+
+.img-p {
+    font-weight: 400;
+    font-size: 7px;
+    line-height: 143%;
+    letter-spacing: 0.07em;
+    color: #fff;
+}
+
+.li-p {
+    width: 309px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: #fff;
+    margin-bottom: 26px;
+}
+
+.section4-li {
+
+    width: 360px;
+    padding: 40px 24px 26px 26px;
+    box-shadow: 5px 5px 8px 0 rgba(56, 56, 56, 0.1);
+    background: #202a3c;
+    border-radius: 4px;
+
+}
+
+.section3 {
+    display: flex;
+    width: 1140px;
+    margin: 0 auto;
+    margin-bottom: 360px;
+}
+
+.section4-ul {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+
+}
+
+.img {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.footer {
+    padding: 200px 0 161px 0;
+    background: #0b1524;
+}
+
+.footer-content{
+    display: flex;
+}
+
+.first-text {
+    display: flex;
+}
+
+.first-text-img {
+    margin-bottom: 32px;
+}
+
+.first-text-p {
+    width: 379px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #fff;
+}
+
+.second {
+    width: 171px;
+    height: 64px;
+}
+
+.second-p {
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    color: #fff;
+}
+
+.third {
+    width: 69px;
+    height: 136px;
+}
+
+.third-p {
+
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+}
